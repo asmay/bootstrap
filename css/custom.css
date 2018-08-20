@@ -1,0 +1,179 @@
+/* Move down content because we have a fixed navbar that is 3.5rem tall */
+body {
+	font-family: 'Arvo', serif;
+  	padding-top: 3.5rem;
+  	background-color: #660000;
+}
+.navbar-nav{
+	padding-left: inherit;
+	float: left !important;
+	
+}
+/*.nav-link {
+     padding-right: 0rem !important; 
+    padding-left: .5rem;
+}*/
+/*.display-3 {
+    font-size: 6rem;
+    font-weight: 400;
+    line-height: 1.2;
+}*/
+#fullWidth{
+	background-color: #303030;
+	color: white;
+}
+#fullWidth p{
+	color: #979797
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: rgba(255, 255, 255, 1);
+}
+.bg-dark{
+    background-color: #290000 !important;
+}
+a{
+	margin: 10px
+}
+a:hover{
+	background-color: #76c38f;
+	border-radius: 4px
+}
+.jumbotron{
+	/*background-image: url('../img/asphalt-blurred-clouds-566862.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;*/
+	color: white;
+	background-color: #290000;
+	width: 100%;
+}
+.jumbotron p{
+	font-size: 20px;
+	width: 400px
+}
+.col-md-4{
+	text-align: center;
+/*	padding: 40px;
+*/}
+.col-md-12{
+	text-align: center;
+	padding: 40px;
+}
+.left{
+	text-align: left;
+}
+.green{
+	color: #76c38f;
+}
+
+.form{
+  margin-top: 30px;
+  text-rendering: optimizeLegibility;
+}
+input[type=text] ,textarea{
+    background-color: #222222;
+    color: #aa9f9f;
+    border-color: transparent;
+    border-radius: 3px;
+    margin: 3px;
+}
+input[type=submit] {
+	margin-top: 20px;
+	background-color: #76c38f;
+	color: #ffffff;
+	background-color: #76c38f;
+	border-radius: 10px
+}
+.white{
+	background-color: white;
+	text-align: center;
+	border-radius: 8px;
+	width: 100%;
+}
+.col-md-3{
+	border-radius: 2px !important;
+	border: 10px;
+	padding-top: 20px;
+
+}
+#hover :hover{
+	background-color: #76c38f;
+}
+.submit{
+	width: 100px;
+	height: 40px;
+	color: black;
+	background-color: #76c38f;
+	border-radius: 8px;
+	margin: 10px;
+}
+h6{
+	margin-top: 20px;
+	padding-bottom: 20px
+}
+.col-12{
+	text-align: center;
+}
+.img{
+	width: 100%
+}
+/*Bootsrap styling*/
+@media (max-width: 1200px) { 
+
+	.jumbotron h1{
+		font-size: 70px;
+	}
+	.jumbotron p{
+		font-size: 20px;
+		width: 300px
+	}
+
+ }
+ /*//////////////////////////////////////*/
+
+ @media (max-width: 992px) { 
+
+	.jumbotron h1{
+		padding-top: 10px;
+		font-size: 50px;
+	}
+	.jumbotron p{
+		font-size: 10px;
+	}
+
+ }
+  /*//////////////////////////////////////*/
+  @media (max-width: 768px) { 
+
+	.jumbotron h1{
+		font-size: 70px;
+	}
+	.jumbotron p{
+		font-size: 20px;
+	}
+
+ }
+  /*//////////////////////////////////////*/
+/* @media (max-width: 576px) { 
+
+	.jumbotron h1{
+		padding-top: 10px;
+		font-size: 50px;
+	}
+	.jumbotron p{
+		font-size: 10px;
+	}
+
+ }
+*/
+ /*//////////////////////////////////////*/
+ @media (max-width: 320px) { 
+
+	.jumbotron h1{
+		font-size: 40px;
+	}
+	.jumbotron p{
+		font-size: 17px;
+	}
+
+ }
+
